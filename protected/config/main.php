@@ -20,17 +20,14 @@ return array(
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
-		
+		/*
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'test',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
-
-  'Sales'=>array(
-             'postPerPage'=>20,
-         ),
+    */
 		
 	),
 
@@ -58,10 +55,6 @@ return array(
 			'urlFormat'=>'path',
 //      'showScriptName'=> false,
 			'rules'=>array(
-
-        'gii'                                     =>'gii',
-        'gii/<controller:\w+>'                    =>'gii/<controller>',
-        'gii/<controller:\w+>/<action:\w+>'       =>'gii/<controller>/<action>',
 
 				'/api/test'                               => '/site/page/view/resttest',
 				'/<page:[\w\-]+>'                         => '/site',
