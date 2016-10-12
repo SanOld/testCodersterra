@@ -1,0 +1,45 @@
+.edit-user .datafilter form .col-lg-3.col-width-type{
+	width:21% !important;
+}
+.edit-user .datafilter form .col-lg-2.col-width-type{
+	width:14.4% !important;
+}
+.request-edit .datafilter .col-lg-3.col1{
+	width:24% !important;
+}
+.edit-user .datafilter form .col-lg-4.add{
+	width:19% !important;
+}
+.edit-user .datafilter form .col-lg-6.add {
+    width: 35.4% !important;
+}
+.edit-user .datafilter form .col-lg-3.add2{
+	width:31% !important;
+}
+.col8-width-type.add{
+	width:66.3% !important;
+}
+#accordion-account .panel-heading > a > strong{
+	width:240px !important;
+}
+#accordion-account .panel-heading .sum{
+	margin:0 10px 0 0;
+}
+#modal-3 .modal-dialog.custom-width{
+	width:620px !important;
+}
+.modal-dialog.modal-custom-width-request-duration{
+  width:700px !important;
+}
+.modal-dialog.modal-custom-width{
+  width:550px !important;
+}
+.col-lg-3.col-width-type {
+    width: 29.7%!important;
+}
+.col-lg-5.col-width-type {
+    width: 39.7%!important;
+}
+.modal .edit-user .col-lg-3.col-width-type {
+	width: 32.7%!important;
+}

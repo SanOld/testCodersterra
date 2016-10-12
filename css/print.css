@@ -1,0 +1,110 @@
+@page {
+	margin: 0;
+}
+body {
+	font: 12pt Arial sans-serif;
+	line-height: 1.3;
+	min-width: 1200px !important;
+}
+.header-nav,
+.heading-box-print,
+.profile-box,
+.pagination,
+.datafilter,
+#datatable_length,
+#datatable_paginate,
+.hint-details,
+.btn-row,
+.notice,
+.breadcrumb,
+.overview,
+table .dt-edit,
+.footer,
+.table-requests th:first-child,
+.table-requests td:first-child,
+.table-requests td:last-child,
+.table-requests th:last-child,
+.table-requests td:nth-child(7),
+.table-requests th:nth-child(7) {
+	display:none;
+}
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after {
+	visibility:hidden;
+}
+a[href]:after {
+    content: none !important;
+}
+.logo-print {
+	display:block;
+	position:static;
+}
+.finance-request .datafilter {
+	display:block;
+}
+.finance-request #datatable th:first-child,
+.finance-request #datatable td:first-child {
+	display:none;
+}
+.finance-request .overview-finance {
+	background: #f3f3f3 !important;
+	padding:-0;
+	border-radius: 0;
+}
+.finance-request .overview-finance h4,
+.finance-request .box-finance .sum strong,
+.finance-request .box-finance .sum span {
+	border-bottom: 4px solid #fff;
+    padding: 7px;
+    margin-bottom: 0;
+}
+.finance-request .box-finance .sum span,
+.finance-request .box-finance .sum strong {
+	border-right: 4px solid #fff;
+}
+.finance-request .box-finance:last-child .sum span,
+.finance-request .box-finance:last-child .sum strong {
+	border-right:0;
+}
+.finance-request .box-finance .sum {
+	padding:0;
+	margin:0;
+}
+.finance-request .box-finance {
+	margin: 0 0 0 -3px;
+    width: 16.7%;
+}
+.finance-request  tr.inprogress-row td {
+    background: #fef5de !important;
+}
+.finance-request .datafilter label,
+.finance-request .datafilter .form-control {
+	display: inline-block;
+	border:0;
+}
+.finance-request .datafilter label:after {content: ":"}
+.finance-request .datafilter .form-control {width: auto !important;}
+.finance-request .datafilter .col-lg-2,
+.finance-request .datafilter .col-lg-4 {
+	width:100%;
+	float:none;
+}
+.finance-request .input-group-addon:last-child,
+.finance-request .reset-btn-width,
+.finance-request .wrap-paging {
+	display:none;
+}
+.finance-request .form-group {
+	margin:0;
+}
+.finance-request .input-group {
+	display:inline-block;
+	vertical-align:middle;
+}
+.finance-request .datafilter:before {
+	content: "Filter:";
+	font-size: 21px;
+    font-weight: 700;
+    margin: 0 0 0 13px;
+    float: left;
+}
+.finance-request .datafilter > form {overflow:hidden;}
